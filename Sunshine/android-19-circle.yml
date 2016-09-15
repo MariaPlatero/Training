@@ -1,0 +1,7 @@
+#
+# Test build configuration for Circle CI
+#
+
+test:
+  override:
+    - ./gradlew assembleDebug
